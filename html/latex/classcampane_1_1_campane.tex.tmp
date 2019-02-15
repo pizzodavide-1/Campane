@@ -1,0 +1,67 @@
+\hypertarget{classcampane_1_1_campane}{}\section{Campane Class Reference}
+\label{classcampane_1_1_campane}\index{Campane@{Campane}}
+
+
+Collaboration diagram for Campane\+:
+% FIG 0
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classcampane_1_1_campane_a8b260eecbaabcef8473fd87ada040682}{main} (String\mbox{[}$\,$\mbox{]} args)
+\begin{DoxyCompactList}\small\item\em vengono creati i 3 thread che contengono il suono delle campane;vengono fatti partire e si fanno partire gli output finchè non si schiaccia un tasto qualsiasi sulla tastiera \end{DoxyCompactList}\item 
+static void \hyperlink{classcampane_1_1_campane_aa28a68d488c2fb8ccd2ca7b07c59509c}{clear\+Console} ()
+\begin{DoxyCompactList}\small\item\em il metodo \textquotesingle{}clear\+Console\textquotesingle{} serve a pulire la console dopo il lancio del programma \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 8 of file Campane.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classcampane_1_1_campane_aa28a68d488c2fb8ccd2ca7b07c59509c}\label{classcampane_1_1_campane_aa28a68d488c2fb8ccd2ca7b07c59509c}} 
+\index{campane\+::\+Campane@{campane\+::\+Campane}!clear\+Console@{clear\+Console}}
+\index{clear\+Console@{clear\+Console}!campane\+::\+Campane@{campane\+::\+Campane}}
+\subsubsection{\texorpdfstring{clear\+Console()}{clearConsole()}}
+{\footnotesize\ttfamily static void clear\+Console (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+il metodo \textquotesingle{}clear\+Console\textquotesingle{} serve a pulire la console dopo il lancio del programma 
+
+\begin{DoxyAuthor}{Author}
+pizzo\+\_\+davide 
+\end{DoxyAuthor}
+
+
+Definition at line 129 of file Campane.\+java.
+
+Here is the caller graph for this function\+:
+% FIG 1
+\mbox{\Hypertarget{classcampane_1_1_campane_a8b260eecbaabcef8473fd87ada040682}\label{classcampane_1_1_campane_a8b260eecbaabcef8473fd87ada040682}} 
+\index{campane\+::\+Campane@{campane\+::\+Campane}!main@{main}}
+\index{main@{main}!campane\+::\+Campane@{campane\+::\+Campane}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void main (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+vengono creati i 3 thread che contengono il suono delle campane;vengono fatti partire e si fanno partire gli output finchè non si schiaccia un tasto qualsiasi sulla tastiera 
+
+\begin{DoxyAuthor}{Author}
+pizzo\+\_\+davide
+\end{DoxyAuthor}
+Il main crea i 3 thread di tipo \textquotesingle{}\hyperlink{classcampane_1_1_th_campane}{Th\+Campane}\textquotesingle{} , passando come parametro il suono della campana e li fa partire. Poi finchè non riceve \char`\"{}il segnale di
+stop\char`\"{} continua,altrimenti li ferma tutti e 3. 
+
+Definition at line 23 of file Campane.\+java.
+
+Here is the call graph for this function\+:
+% FIG 2
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/campane/\hyperlink{_campane_8java}{Campane.\+java}\end{DoxyCompactItemize}

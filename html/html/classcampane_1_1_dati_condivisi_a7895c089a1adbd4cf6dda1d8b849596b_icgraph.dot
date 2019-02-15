@@ -1,0 +1,12 @@
+digraph "getDin"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node10 [label="getDin",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="campane.Campane.main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcampane_1_1_campane.html#a8b260eecbaabcef8473fd87ada040682",tooltip="vengono creati i 3 thread che contengono il suono delle campane;vengono fatti partire e si fanno part..."];
+  Node10 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="campane.ThV.output",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcampane_1_1_th_v.html#a7437b254e19e7e12fc2ec99945f4ecea"];
+}

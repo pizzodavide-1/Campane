@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="DatiCondivisi",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcampane_1_1_dati_condivisi.html",tooltip="Classe DatiCondivisi, meemorizza e restituisce il numero di rintocchi di ogni campana. "];
+}

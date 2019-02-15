@@ -1,0 +1,11 @@
+digraph "ThV"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{ThV\n||+ ThV()\l+ output()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal"];
+  Node3 [label="{Thread\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" -ptrDati" ,arrowhead="odiamond"];
+  Node4 [label="{DatiCondivisi\n|~ schermo\l~ primaPosizioneLibera\l- din\l- don\l- dan\l- nr\l- rs\l|+ DatiCondivisi()\l+ getNr()\l+ setNr()\l+ getRs()\l+ setRs()\l+ getDin()\l+ setDin()\l+ getDon()\l+ setDon()\l+ getDan()\l+ setDan()\l+ visualizzaLinee()\l+ aggiungiLinea()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcampane_1_1_dati_condivisi.html",tooltip="Classe DatiCondivisi, meemorizza e restituisce il numero di rintocchi di ogni campana. "];
+}

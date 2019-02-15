@@ -1,0 +1,20 @@
+digraph "run"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="run",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="campane.Semaforo.Wait",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcampane_1_1_semaforo.html#afc4e41716e5e0c87146c4d8b199f3c7a"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="campane.DatiCondivisi.aggiungi\lLinea",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcampane_1_1_dati_condivisi.html#a7ded9a23a6e1e44ea170adc4b243aa20",tooltip="il metodo serve a stampare una string passata come parametro nella prima posizione libera dell&#39;array ..."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="campane.Semaforo.Signal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcampane_1_1_semaforo.html#a70e3e26de78b8ed879d1e5a790189bc8"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="campane.DatiCondivisi.setDin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcampane_1_1_dati_condivisi.html#a0efe7c0aafacd9cfc6b099e007885ee8",tooltip="Metodo modificatore di default che modifica il numero di rintocchi della campana &#39;din&#39;. "];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node7 [label="campane.DatiCondivisi.setDon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcampane_1_1_dati_condivisi.html#a423462972930fdb769f394b1693b3415",tooltip="Metodo modificatore di default che modifica il numero di rintocchi della campana &#39;don&#39;. "];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="campane.DatiCondivisi.setDan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcampane_1_1_dati_condivisi.html#a0af8623c62b599c95f970b3f3d97da3a",tooltip="Metodo modificatore di default che modifica il numero di rintocchi della campana &#39;dan&#39;. "];
+}

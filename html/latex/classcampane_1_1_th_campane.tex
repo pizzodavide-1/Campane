@@ -1,0 +1,146 @@
+\hypertarget{classcampane_1_1_th_campane}{}\section{Th\+Campane Class Reference}
+\label{classcampane_1_1_th_campane}\index{Th\+Campane@{Th\+Campane}}
+
+
+Inheritance diagram for Th\+Campane\+:
+% FIG 0
+
+
+Collaboration diagram for Th\+Campane\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcampane_1_1_th_campane_a67a81be1063d81b688bac2ee6b04d5dc}{Th\+Campane} (String nome\+Suono, \hyperlink{classcampane_1_1_dati_condivisi}{Dati\+Condivisi} dati, \hyperlink{classcampane_1_1_semaforo}{Semaforo} mutex)
+\begin{DoxyCompactList}\small\item\em Costruttore con parametri che permette di inizializzare il numero del cavallo, un oggetto nel quale verranno memorizzate informazione sul cavallo e l\textquotesingle{}utilizzo o meno dello yeld e dello sleep. \end{DoxyCompactList}\item 
+void \hyperlink{classcampane_1_1_th_campane_a13a43e6d814de94978c515cb084873b1}{run} ()
+\begin{DoxyCompactList}\small\item\em Metodo che rappresenta il main del Thread. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String \hyperlink{classcampane_1_1_th_campane_a8e2bdcee9d569ad59a224068e53bd3f2}{suono}
+\item 
+boolean \hyperlink{classcampane_1_1_th_campane_a135f40f8b2d0ba748791e390adac4e13}{continua}
+\item 
+\hyperlink{classcampane_1_1_dati_condivisi}{Dati\+Condivisi} \hyperlink{classcampane_1_1_th_campane_af3ade885f29d5a10bb194e8e3e1480c5}{ptr\+Dati}
+\item 
+\hyperlink{classcampane_1_1_semaforo}{Semaforo} \hyperlink{classcampane_1_1_th_campane_a83b472201ffa84b0afd563d6028fd4d8}{ptr\+Mutex}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 13 of file Th\+Campane.\+java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcampane_1_1_th_campane_a67a81be1063d81b688bac2ee6b04d5dc}\label{classcampane_1_1_th_campane_a67a81be1063d81b688bac2ee6b04d5dc}} 
+\index{campane\+::\+Th\+Campane@{campane\+::\+Th\+Campane}!Th\+Campane@{Th\+Campane}}
+\index{Th\+Campane@{Th\+Campane}!campane\+::\+Th\+Campane@{campane\+::\+Th\+Campane}}
+\subsubsection{\texorpdfstring{Th\+Campane()}{ThCampane()}}
+{\footnotesize\ttfamily \hyperlink{classcampane_1_1_th_campane}{Th\+Campane} (\begin{DoxyParamCaption}\item[{String}]{nome\+Suono,  }\item[{\hyperlink{classcampane_1_1_dati_condivisi}{Dati\+Condivisi}}]{dati,  }\item[{\hyperlink{classcampane_1_1_semaforo}{Semaforo}}]{mutex }\end{DoxyParamCaption})}
+
+
+
+Costruttore con parametri che permette di inizializzare il numero del cavallo, un oggetto nel quale verranno memorizzate informazione sul cavallo e l\textquotesingle{}utilizzo o meno dello yeld e dello sleep. 
+
+\begin{DoxyAuthor}{Author}
+pizzo\+\_\+davide
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Suono} & il parametro serve per passare al metodo un valore di tipo String per inizializzare l\textquotesingle{}attributo che memorizza il suono \\
+\hline
+{\em mutex} & puntatore al semaforo \\
+\hline
+{\em dati} & il parametro serve a passare al metodo un valore di tipo \hyperlink{classcampane_1_1_dati_condivisi}{Dati\+Condivisi} dove verrà memorizzato il numero di volte in cui ce un suono \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 59 of file Th\+Campane.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classcampane_1_1_th_campane_a13a43e6d814de94978c515cb084873b1}\label{classcampane_1_1_th_campane_a13a43e6d814de94978c515cb084873b1}} 
+\index{campane\+::\+Th\+Campane@{campane\+::\+Th\+Campane}!run@{run}}
+\index{run@{run}!campane\+::\+Th\+Campane@{campane\+::\+Th\+Campane}}
+\subsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metodo che rappresenta il main del Thread. 
+
+\begin{DoxyAuthor}{Author}
+pizzo\+\_\+davide
+\end{DoxyAuthor}
+Il metodo serve a simulare il rintocco di una campana.\+La campana suona finchè non si fa terminare. Il Thread provvederà a salvare il numero dei rintocchi. 
+
+Definition at line 78 of file Th\+Campane.\+java.
+
+Here is the call graph for this function\+:
+% FIG 2
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classcampane_1_1_th_campane_a135f40f8b2d0ba748791e390adac4e13}\label{classcampane_1_1_th_campane_a135f40f8b2d0ba748791e390adac4e13}} 
+\index{campane\+::\+Th\+Campane@{campane\+::\+Th\+Campane}!continua@{continua}}
+\index{continua@{continua}!campane\+::\+Th\+Campane@{campane\+::\+Th\+Campane}}
+\subsubsection{\texorpdfstring{continua}{continua}}
+{\footnotesize\ttfamily boolean continua\hspace{0.3cm}{\ttfamily [private]}}
+
+\begin{DoxyAuthor}{Author}
+pizzo\+\_\+davide
+\end{DoxyAuthor}
+Dichiarazione di un attributo di tipo boolean,che serve per controllare se si puo andare avanti oppure no. 
+
+Definition at line 29 of file Th\+Campane.\+java.
+
+\mbox{\Hypertarget{classcampane_1_1_th_campane_af3ade885f29d5a10bb194e8e3e1480c5}\label{classcampane_1_1_th_campane_af3ade885f29d5a10bb194e8e3e1480c5}} 
+\index{campane\+::\+Th\+Campane@{campane\+::\+Th\+Campane}!ptr\+Dati@{ptr\+Dati}}
+\index{ptr\+Dati@{ptr\+Dati}!campane\+::\+Th\+Campane@{campane\+::\+Th\+Campane}}
+\subsubsection{\texorpdfstring{ptr\+Dati}{ptrDati}}
+{\footnotesize\ttfamily \hyperlink{classcampane_1_1_dati_condivisi}{Dati\+Condivisi} ptr\+Dati\hspace{0.3cm}{\ttfamily [private]}}
+
+\begin{DoxyAuthor}{Author}
+pizzo\+\_\+davide
+\end{DoxyAuthor}
+Dichiarazione dell\textquotesingle{}attributo che servirà a salvare il numero di rintocchi di campana 
+
+Definition at line 37 of file Th\+Campane.\+java.
+
+\mbox{\Hypertarget{classcampane_1_1_th_campane_a83b472201ffa84b0afd563d6028fd4d8}\label{classcampane_1_1_th_campane_a83b472201ffa84b0afd563d6028fd4d8}} 
+\index{campane\+::\+Th\+Campane@{campane\+::\+Th\+Campane}!ptr\+Mutex@{ptr\+Mutex}}
+\index{ptr\+Mutex@{ptr\+Mutex}!campane\+::\+Th\+Campane@{campane\+::\+Th\+Campane}}
+\subsubsection{\texorpdfstring{ptr\+Mutex}{ptrMutex}}
+{\footnotesize\ttfamily \hyperlink{classcampane_1_1_semaforo}{Semaforo} ptr\+Mutex\hspace{0.3cm}{\ttfamily [private]}}
+
+\begin{DoxyAuthor}{Author}
+pizzo\+\_\+davide
+\end{DoxyAuthor}
+Dichiarazione dell\textquotesingle{}attributo che servirà a puntare al semaforo 
+
+Definition at line 43 of file Th\+Campane.\+java.
+
+\mbox{\Hypertarget{classcampane_1_1_th_campane_a8e2bdcee9d569ad59a224068e53bd3f2}\label{classcampane_1_1_th_campane_a8e2bdcee9d569ad59a224068e53bd3f2}} 
+\index{campane\+::\+Th\+Campane@{campane\+::\+Th\+Campane}!suono@{suono}}
+\index{suono@{suono}!campane\+::\+Th\+Campane@{campane\+::\+Th\+Campane}}
+\subsubsection{\texorpdfstring{suono}{suono}}
+{\footnotesize\ttfamily String suono\hspace{0.3cm}{\ttfamily [private]}}
+
+\begin{DoxyAuthor}{Author}
+pizzo\+\_\+davide
+\end{DoxyAuthor}
+Dichiarazione di un attributo di tipo String,che conterrà la parola del thread 
+
+Definition at line 21 of file Th\+Campane.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/campane/\hyperlink{_th_campane_8java}{Th\+Campane.\+java}\end{DoxyCompactItemize}

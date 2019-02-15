@@ -1,0 +1,22 @@
+digraph "main"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3 [label="main",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="campane.DatiCondivisi.visualizza\lLinee",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcampane_1_1_dati_condivisi.html#a7bab9fc262a791bb644c1a11f0c0bc46",tooltip="Il metodo serve ad aggiungere una nuova linea nella prima posizione libera trovata nell&#39;array..."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="clearConsole",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcampane_1_1_campane.html#aa28a68d488c2fb8ccd2ca7b07c59509c",tooltip="il metodo &#39;clearConsole&#39; serve a pulire la console dopo il lancio del programma "];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="campane.DatiCondivisi.getDin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcampane_1_1_dati_condivisi.html#a7895c089a1adbd4cf6dda1d8b849596b",tooltip="Metodo accessore di default che restituisce il numero di rinrocchi della campana &#39;din&#39;. "];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node7 [label="campane.DatiCondivisi.getDan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcampane_1_1_dati_condivisi.html#a5575d5b4f01a453d789f4a41fa3b5ba0",tooltip="Metodo accessore di default che restituisce il numero di rinrocchi della campana &#39;dan&#39;. "];
+  Node3 -> Node8 [color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="campane.DatiCondivisi.getDon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcampane_1_1_dati_condivisi.html#a6ba617c5159f591a47f3e48ed45d0cac",tooltip="Metodo accessore di default che restituisce il numero di rinrocchi della campana &#39;don&#39;. "];
+  Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid"];
+  Node9 [label="campane.DatiCondivisi.setNr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcampane_1_1_dati_condivisi.html#a7279779585b56f536bb0e0cb30d07046",tooltip="Metodo modificatore di default che modifica il valore del rintocco che ci è stato più spesso..."];
+  Node3 -> Node10 [color="midnightblue",fontsize="10",style="solid"];
+  Node10 [label="campane.DatiCondivisi.setRs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcampane_1_1_dati_condivisi.html#a2dbdf2681bac5f1e5628fb145daa119d",tooltip="Metodo modificatore di default che modifica il valore del rintocco scommesso. "];
+}
