@@ -1,0 +1,24 @@
+@startuml
+actor Utente
+participant main
+entity datiCondivisi
+
+Utente -> main ++ : start
+
+main -> datiCondivisi ** : new
+Utente -> main : Rintocco da indovinare
+main -> thV ** : new
+main -> thV ++ : start
+main -> thCampane ** : new
+main -> thCampane ++ : start
+
+thCampane -> main -- : return
+
+note over main : join thCampane
+note over main : join thV
+
+thV -> Utente : rintocco più frequente
+
+main -> datiCondivisi : datiCondivisi.getMax()
+main -> Utente : messaggio
+@enduml
